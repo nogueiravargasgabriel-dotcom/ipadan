@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Material de estudo sobre a história da dança, os rituais, o balé e a dança moderna e contemporânea.">
+  <meta name="theme-color" content="#29233d">
+  <title>Corpo em Movimento — História da Dança</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#" aria-label="Corpo em Movimento, início">
+        <span class="brand-symbol" aria-hidden="true">✳</span>
+        <span>
+          <strong>Corpo em Movimento</strong>
+          <small>História da dança · Corpo, gesto e cultura</small>
+        </span>
+      </a>
+
+      <button class="menu-button" id="menu-button" type="button"
+        aria-expanded="false" aria-controls="main-navigation" aria-label="Abrir menu">
+        ☰
+      </button>
+
+      <nav class="navigation" id="main-navigation" aria-label="Navegação principal">
+        <a href="#caderno">Caderno</a>
+        <a href="#percurso">Percurso</a>
+        <a href="#desafio">Desafio</a>
+        <a href="#revisao">Revisão</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-layout">
+        <div class="hero-text">
+          <p class="eyebrow">Dança · Ritual · Cena · Expressão</p>
+          <h1>O corpo conta histórias em movimento</h1>
+          <p>
+            Da dança ritualística à dança contemporânea, investigue como gestos,
+            técnicas e coreografias expressam culturas e transformações sociais.
+          </p>
+          <a class="button button-light" href="#caderno">Iniciar o percurso</a>
+        </div>
+
+        <div class="dance-art" aria-hidden="true">
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+          <div class="figure">
+            <span class="figure-head"></span>
+            <span class="figure-body"></span>
+            <span class="figure-arm figure-arm-left"></span>
+            <span class="figure-arm figure-arm-right"></span>
+            <span class="figure-leg figure-leg-left"></span>
+            <span class="figure-leg figure-leg-right"></span>
+          </div>
+          <span class="art-word word-gesture">GESTO</span>
+          <span class="art-word word-rhythm">RITMO</span>
+          <span class="art-word word-body">CORPO</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="caderno">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Seu espaço de estudo</p>
+          <h2>Caderno de movimentos</h2>
+          <p>
+            Anote ideias, dúvidas e conexões. O conteúdo digitado é salvo
+            automaticamente neste navegador.
+          </p>
+        </div>
+
+        <article class="paper-card">
+          <label for="general-notes">Anotações gerais</label>
+          <textarea class="note-field" id="general-notes" data-note-id="geral"
+            rows="5" placeholder="Que relações você percebe entre dança, corpo e identidade cultural?"></textarea>
+          <p class="save-status" id="general-save-status" aria-live="polite">
+            As anotações são salvas automaticamente neste navegador.
+          </p>
+        </article>
+
+        <aside class="study-key">
+          <p class="eyebrow">Chaves de leitura</p>
+          <div class="key-list">
+            <span><b>Corpo:</b> instrumento de expressão e memória</span>
+            <span><b>Ritual:</b> gesto simbólico ligado a uma tradição</span>
+            <span><b>Cena:</b> dança apresentada a uma plateia</span>
+            <span><b>Transformação:</b> técnica, improviso e experimentação</span>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="percurso">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Percurso de estudo</p>
+          <h2>Do rito à experimentação</h2>
+          <p>
+            A dança muda com as sociedades: pode transmitir tradições, entreter
+            plateias, seguir regras técnicas ou investigar novas possibilidades
+            do movimento.
+          </p>
+        </div>
+
+        <div class="topic-grid">
+          <article class="topic-card">
+            <span class="topic-number">01</span>
+            <p class="topic-label">Origens e registros</p>
+            <h3>Imagens de dança na pré-história</h3>
+            <p>
+              Não há informação precisa sobre quando os seres humanos começaram
+              a dançar. Os primeiros registros mencionados no texto datam de
+              aproximadamente 9 000 a.C. a 8 000 a.C. e aparecem em paredes e
+              rochas de cavernas.
+            </p>
+            <p>
+              Algumas imagens mostram pessoas dançando ao redor de animais.
+              Acredita-se que essas cenas estejam relacionadas à constituição
+              de danças ritualísticas.
+            </p>
+            <div class="tag-row">
+              <span>Registro rupestre</span><span>Ritual</span><span>Comunidade</span>
+            </div>
+            <aside class="study-note">
+              <strong>Para interpretar:</strong> uma imagem de dança pode ser
+              observada como registro de práticas coletivas e simbólicas.
+            </aside>
+            <label for="note-origens">Anotações sobre as origens</label>
+            <textarea class="note-field" id="note-origens" data-note-id="origens"
+              rows="3" placeholder="Registre uma ideia ou dúvida..."></textarea>
+          </article>
+
+          <article class="topic-card">
+            <span class="topic-number">02</span>
+            <p class="topic-label">Corpo e ritual</p>
+            <h3>O gesto como linguagem simbólica</h3>
+            <p>
+              Segundo o antropólogo Claude Lévi-Strauss, o corpo é fundamental
+              para o ritual: as expressões corporais criam uma linguagem
+              simbólica por meio de gestos, concretizando e narrando mitos
+              religiosos que fazem parte de uma cerimônia.
+            </p>
+            <p>
+              O corpo pode expressar um povo, guardar e transmitir tradições
+              entre gerações e manter viva uma identidade cultural e um
+              sentimento de pertencimento.
+            </p>
+            <div class="definition">
+              <strong>Ritual</strong>
+              <p>
+                Costume ou cerimônia associado a simbologias religiosas ou a
+                normas de conduta e práticas socialmente instituídas.
+              </p>
+            </div>
+            <label for="note-ritual">Anotações sobre ritual e corpo</label>
+            <textarea class="note-field" id="note-ritual" data-note-id="ritual"
+              rows="3" placeholder="Como o gesto pode transmitir uma tradição?"></textarea>
+          </article>
+
+          <article class="topic-card">
+            <span class="topic-number">03</span>
+            <p class="topic-label">Dança cênica</p>
+            <h3>Da corte à apresentação para o público</h3>
+            <p>
+              Além das danças ritualísticas e litúrgicas, existe a dança cênica,
+              destinada à apreciação de plateias. O texto cita apresentações de
+              bailarinos-escravos que entretinham as cortes indiana e chinesa
+              nos primeiros séculos depois de Cristo.
+            </p>
+            <p>
+              Entre os exemplos de tradições cênicas orientais estão os corpos
+              de baile da Tailândia e do Camboja.
+            </p>
+            <div class="definition">
+              <strong>Corpo de baile</strong>
+              <p>Conjunto de bailarinos de uma companhia de dança.</p>
+            </div>
+            <label for="note-cenica">Anotações sobre dança cênica</label>
+            <textarea class="note-field" id="note-cenica" data-note-id="cenica"
+              rows="3" placeholder="Registre uma ideia ou dúvida..."></textarea>
+          </article>
+
+          <article class="topic-card">
+            <span class="topic-number">04</span>
+            <p class="topic-label">Corte e coreografia</p>
+            <h3>A dança chega aos palácios</h3>
+            <p>
+              Entre os séculos XIII e XIV, artistas levaram danças de origem
+              popular e folclórica aos palácios da nobreza. Essas práticas
+              foram adaptadas ao gosto aristocrático, que buscava demonstrar
+              riqueza e poder.
+            </p>
+            <p>
+              Na corte, a dança cênica e o balé surgiram e se desenvolveram.
+              Os passos, antes improvisados, passaram a seguir coreografias.
+            </p>
+            <div class="definition">
+              <strong>Coreografia</strong>
+              <p>
+                Sequência de movimentos organizada por padrões e normas, como
+                os passos do balé clássico.
+              </p>
+            </div>
+            <label for="note-corte">Anotações sobre corte e coreografia</label>
+            <textarea class="note-field" id="note-corte" data-note-id="corte"
+              rows="3" placeholder="Que mudanças ocorreram quando a dança chegou à corte?"></textarea>
+          </article>
+
+          <article class="topic-card">
+            <span class="topic-number">05</span>
+            <p class="topic-label">Rupturas com o balé</p>
+            <h3>Expressividade e novos movimentos</h3>
+            <p>
+              O balé foi a forma hegemônica da dança teatral até que rupturas
+              começaram a surgir no final do século XIX. Mikhail Fokine
+              questionou passos coreografados sem sentido e defendeu a
+              expressividade como objetivo central da dança.
+            </p>
+            <p>
+              Isadora Duncan, considerada pioneira da dança moderna, dançava
+              descalça ou com sandálias e usava túnicas ou vestidos. Inspirada
+              pelas figuras dos vasos gregos, explorava movimentos naturais,
+              como andar, correr, saltar e respirar.
+            </p>
+            <p>
+              Rudolf Laban pesquisou o movimento humano e investigou as diversas
+              possibilidades de movimento oferecidas pelo corpo.
+            </p>
+            <div class="tag-row">
+              <span>Fokine</span><span>Isadora Duncan</span><span>Laban</span>
+            </div>
+            <label for="note-moderna">Anotações sobre dança moderna</label>
+            <textarea class="note-field" id="note-moderna" data-note-id="moderna"
+              rows="3" placeholder="Como esses artistas transformaram a dança?"></textarea>
+          </article>
+
+          <article class="topic-card">
+            <span class="topic-number">06</span>
+            <p class="topic-label">Dança contemporânea</p>
+            <h3>Corpo, cotidiano e reflexão</h3>
+            <p>
+              A partir do século XX, o corpo passou a ser tratado cada vez mais
+              como ferramenta de expressão. A dança moderna aproximou gesto e
+              emoção; alguns bailarinos mantiveram estruturas do balé, enquanto
+              outros exploraram o improviso.
+            </p>
+            <p>
+              Na dança contemporânea, especialmente a partir de meados do
+              século XX, houve maior liberdade em relação a padrões técnicos,
+              artísticos e físicos.
+            </p>
+            <p>
+              Pina Bausch incorporou gestos, temas e figurinos cotidianos,
+              estabelecendo diálogos com o teatro. Suas coreografias provocavam
+              o público e convidavam à reflexão sobre a relação das pessoas
+              com o mundo.
+            </p>
+            <label for="note-contemporanea">Anotações sobre dança contemporânea</label>
+            <textarea class="note-field" id="note-contemporanea" data-note-id="contemporanea"
+              rows="3" placeholder="Como ações cotidianas podem ganhar novos sentidos na dança?"></textarea>
+          </article>
+
+          <article class="topic-card topic-card-wide">
+            <span class="topic-number">07</span>
+            <p class="topic-label">Síntese do percurso</p>
+            <h3>O movimento também é memória</h3>
+            <p>
+              Ao estudar a dança, observe quem dança, em que contexto, para
+              quem e com que finalidade. Um gesto pode integrar um ritual,
+              expressar uma tradição, entreter uma plateia ou provocar uma
+              reflexão. A relação entre regras, improviso, corpo e sociedade
+              ajuda a compreender as mudanças na história da dança.
+            </p>
+            <div class="question-strip">
+              <span>Qual é a função da dança?</span>
+              <span>Que símbolos ou ideias os gestos comunicam?</span>
+              <span>Há coreografia ou improviso?</span>
+              <span>Como a obra dialoga com o público?</span>
+            </div>
+            <label for="note-sintese">Minha síntese</label>
+            <textarea class="note-field" id="note-sintese" data-note-id="sintese"
+              rows="4" placeholder="Escreva sua síntese com suas próprias palavras..."></textarea>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="desafio">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Desafio autoral</p>
+          <h2>Questões de leitura e interpretação</h2>
+          <p>
+            Leia os textos de apoio e escolha a alternativa que melhor interpreta
+            as informações sobre a dança.
+          </p>
+        </div>
+
+        <div class="quiz-container" id="quiz-container"></div>
+        <div class="quiz-actions">
+          <button class="button button-primary" id="finish-quiz" type="button">Corrigir questões</button>
+          <button class="button button-secondary" id="reset-quiz" type="button">Limpar respostas</button>
+        </div>
+        <p class="quiz-result" id="quiz-result" aria-live="polite" hidden></p>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="revisao">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Fechamento do percurso</p>
+          <h2>Minha folha de revisão</h2>
+          <p>Reúna seu desempenho e suas anotações para revisar os conceitos.</p>
+        </div>
+
+        <div class="action-row">
+          <button class="button button-primary" id="generate-summary" type="button">Gerar resumo</button>
+          <button class="button button-secondary" id="copy-notes" type="button">Copiar síntese</button>
+          <button class="button button-secondary" id="print-page" type="button">Imprimir</button>
+        </div>
+
+        <article class="paper-card summary-card">
+          <h3>Resumo de estudo</h3>
+          <div id="summary-content">
+            <p>Gere o resumo para reunir seu desempenho e suas anotações.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Corpo em Movimento · História da dança</p>
+      <p>Material de estudo organizado com base no texto fornecido.</p>
+    </div>
+  </footer>
+</body>
+</html>
